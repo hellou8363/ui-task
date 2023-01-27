@@ -2,10 +2,8 @@ body {
   margin: 0;
 }
 header {
-  height: 180px;
-
-  padding: 0 100px;
-
+  height: 150px;
+  padding: 0 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,13 +62,10 @@ article > img {
 /* footer */
 footer {
   height: 200px;
-
   padding: 0 150px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   background-color: #2C2A29;
 }
 footer > p {
