@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 70vw;
+  margin: 0 auto;
+}
+/* header */
+header {
+  height: 120px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.side-menu > ul > li, .main-menu > ul > li {
+  display: inline-block;
+}
+main {
+  border-bottom: 1px solid gray;
+  padding-bottom: 30px;
+}
+.main-menu > ul {
+  padding: 0;
+}
+.img-group {
+  display: flex;
+}
+.banner_group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+footer {
+  height: 120px;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
