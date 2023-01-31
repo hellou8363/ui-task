@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .container {
-  width: 70vw;
+  width: 1020px;
   margin: 0 auto;
 }
 /* header */
@@ -38,4 +38,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+img {
+  object-fit: contain;
+  overflow: hidden;
 }
